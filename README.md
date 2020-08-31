@@ -2,8 +2,6 @@
 # [ IN PROCESS ]
 A simple botnet that attacks IOT devices, have a C&C and the possibility of carrying out targeted attacks
 
-![screenshot](https://i.ibb.co/WnsxBNQ/Screenshot-2.png)
-
 <hr>
 
 ### How to use
@@ -19,5 +17,5 @@ Launch you custom command attack or use the prefabricated attacks
 <hr>
 
 ### Disclaimer
-This code is for educational and safety purposes only. 
+This open code is for educational and safety purposes only. 
 The author is not responsible for improper use of the tool
