@@ -1,5 +1,5 @@
 # proteo-iot-botnet
-# [ IN PROCESS ]
+<span style="color:red"># [ IN PROCESS ]</span>
 A simple botnet that attacks IOT devices, have a C&C and the possibility of carrying out targeted attacks
 
 <hr>
