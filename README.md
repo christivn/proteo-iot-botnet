@@ -3,7 +3,7 @@ A simple botnet that attacks IOT devices, have a C&C and the possibility of carr
 
 # [ IN PROCESS ]
 
-I have made several libraries especially for this project:
+I have made several libraries especially for this project:<br>
 - [Bruscan](https://github.com/christivn/bruscan-bruteforce-tool)
 - [INDES](https://github.com/christivn/INDES-devices-scan-engine)
 - [geoipgen](https://github.com/christivn/geoipgen)
@@ -11,7 +11,7 @@ I have made several libraries especially for this project:
 **Proteus** is a grouping of several of these tools with minor changes.
 
 <hr>
-### How to use
+### How to use<br>
 **Step 1**
 Scan devices
 
