@@ -1,5 +1,7 @@
 # proteo-iot-botnet
-A simple botnet that attacks IOT devices, have a C&C and the possibility of carrying out targeted attacks
+A simple botnet that attacks IOT devices, have a C&C and the possibility of carrying out targeted attacks.
+
+The power of PROTEO is based on the modularity of its applications as microservices, and the possibility of having several workers simultaneously.
 
 # [ IN PROCESS ]
 
